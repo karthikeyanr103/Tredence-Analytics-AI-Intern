@@ -1,0 +1,30 @@
+# configs/default.yaml
+# =====================
+# Default hyperparameters for self-pruning experiments.
+# Override any value from the CLI (e.g. --epochs 50).
+
+training:
+  epochs:     30
+  batch_size: 256
+  lr:         0.001          # base learning rate (gate params use 10×)
+
+sweep:
+  lambdas: [0.1, 0.5, 1.0]  # sparsity penalty weights to compare
+
+model:
+  input_dim:   3072          # 3 × 32 × 32  (CIFAR-10 flattened)
+  hidden_dims: [1024, 512, 256]
+  num_classes: 10
+
+paths:
+  data_dir:   ./data
+  output_dir: ./outputs
+  log_dir:    ./logs
+
+gif:
+  fps:  4
+  step: 1                    # render every Nth epoch (1 = all epochs)
+
+wandb:
+  enabled: false             # set to true + provide key to enable W&B
+  project: self-pruning-nn

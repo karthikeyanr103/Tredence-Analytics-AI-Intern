@@ -1,0 +1,24 @@
+[32mINFO    [0m  [36msrc.model[0m  08:48:13  INFO      src.model  SelfPruningNet built | architecture: 3072-1024-512-256-10 | total gates: 3,803,648
+[32mINFO    [0m  [36msrc.trainer[0m  08:48:13  INFO      src.trainer  Experiment start  λ=1.0000  epochs=100  lr=1e-03  device=cuda
+[32mINFO    [0m  [36msrc.trainer[0m  08:48:23  INFO      src.trainer    λ=1.00  epoch   1/100  total=2.7103  CE=1.7635  spar=0.9468  sparsity=0.0%  10.3s
+[32mINFO    [0m  [36msrc.trainer[0m  08:49:03  INFO      src.trainer    λ=1.00  epoch   5/100  total=2.1134  CE=1.4183  spar=0.6952  sparsity=0.0%  9.9s
+[32mINFO    [0m  [36msrc.trainer[0m  08:49:54  INFO      src.trainer    λ=1.00  epoch  10/100  total=1.7142  CE=1.2864  spar=0.4278  sparsity=0.0%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  08:50:45  INFO      src.trainer    λ=1.00  epoch  15/100  total=1.5159  CE=1.1940  spar=0.3220  sparsity=8.4%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:51:36  INFO      src.trainer    λ=1.00  epoch  20/100  total=1.3811  CE=1.1158  spar=0.2653  sparsity=21.2%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  08:52:27  INFO      src.trainer    λ=1.00  epoch  25/100  total=1.2798  CE=1.0500  spar=0.2298  sparsity=32.0%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:53:18  INFO      src.trainer    λ=1.00  epoch  30/100  total=1.1999  CE=0.9941  spar=0.2058  sparsity=40.4%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:54:08  INFO      src.trainer    λ=1.00  epoch  35/100  total=1.1288  CE=0.9401  spar=0.1888  sparsity=46.7%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:54:59  INFO      src.trainer    λ=1.00  epoch  40/100  total=1.0741  CE=0.8978  spar=0.1763  sparsity=51.6%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:55:50  INFO      src.trainer    λ=1.00  epoch  45/100  total=1.0153  CE=0.8482  spar=0.1671  sparsity=55.4%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  08:56:41  INFO      src.trainer    λ=1.00  epoch  50/100  total=0.9695  CE=0.8093  spar=0.1603  sparsity=58.4%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  08:57:32  INFO      src.trainer    λ=1.00  epoch  55/100  total=0.9242  CE=0.7690  spar=0.1552  sparsity=60.6%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  08:58:24  INFO      src.trainer    λ=1.00  epoch  60/100  total=0.8816  CE=0.7302  spar=0.1514  sparsity=62.3%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  08:59:15  INFO      src.trainer    λ=1.00  epoch  65/100  total=0.8436  CE=0.6949  spar=0.1487  sparsity=63.6%  10.3s
+[32mINFO    [0m  [36msrc.trainer[0m  09:00:06  INFO      src.trainer    λ=1.00  epoch  70/100  total=0.8113  CE=0.6646  spar=0.1468  sparsity=64.6%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  09:00:57  INFO      src.trainer    λ=1.00  epoch  75/100  total=0.7830  CE=0.6376  spar=0.1454  sparsity=65.3%  10.1s
+[32mINFO    [0m  [36msrc.trainer[0m  09:01:49  INFO      src.trainer    λ=1.00  epoch  80/100  total=0.7647  CE=0.6202  spar=0.1445  sparsity=65.8%  10.2s
+[32mINFO    [0m  [36msrc.trainer[0m  09:02:40  INFO      src.trainer    λ=1.00  epoch  85/100  total=0.7450  CE=0.6010  spar=0.1439  sparsity=66.1%  10.3s
+[32mINFO    [0m  [36msrc.trainer[0m  09:03:33  INFO      src.trainer    λ=1.00  epoch  90/100  total=0.7318  CE=0.5882  spar=0.1436  sparsity=66.3%  10.8s
+[32mINFO    [0m  [36msrc.trainer[0m  09:04:26  INFO      src.trainer    λ=1.00  epoch  95/100  total=0.7286  CE=0.5851  spar=0.1435  sparsity=66.3%  10.7s
+[32mINFO    [0m  [36msrc.trainer[0m  09:05:18  INFO      src.trainer    λ=1.00  epoch 100/100  total=0.7283  CE=0.5849  spar=0.1435  sparsity=66.3%  10.4s
+[32mINFO    [0m  [36msrc.trainer[0m  09:05:20  INFO      src.trainer  Experiment done   λ=1.0000  acc=67.35%  sparsity=66.35%

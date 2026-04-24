@@ -1,0 +1,11 @@
+2026-04-24 08:13:17  INFO      root                            Logging initialised  |  file → logs/run_lambdas_0.1_0.5_1.0_20260424_081317.log
+2026-04-24 08:13:17  INFO      __main__                        ============================================================
+2026-04-24 08:13:17  INFO      __main__                        Self-Pruning Neural Network  —  CIFAR-10
+2026-04-24 08:13:17  INFO      __main__                        ============================================================
+2026-04-24 08:13:17  INFO      __main__                        Config: epochs=100  lr=1e-03  batch=256  λ=[0.1, 0.5, 1.0]
+2026-04-24 08:13:17  INFO      __main__                        Device: cuda
+2026-04-24 08:13:31  INFO      src.data                        CIFAR-10 loaded | train=50000  test=10000  batch_size=256
+2026-04-24 08:13:31  DEBUG     asyncio                         Using selector: EpollSelector
+2026-04-24 08:13:31  DEBUG     git.cmd                         Popen(['git', 'version'], cwd=/kaggle/working, stdin=None, shell=False, universal_newlines=False)
+2026-04-24 08:13:31  DEBUG     git.cmd                         Popen(['git', 'version'], cwd=/kaggle/working, stdin=None, shell=False, universal_newlines=False)
+2026-04-24 08:13:31  DEBUG     git.util                        sys.platform='linux', git_executable='git'

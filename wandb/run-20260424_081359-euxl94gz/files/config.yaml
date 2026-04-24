@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            03jt2sdzp86xrkr3q7aaudeodrpajgah:
+                args:
+                    - --epochs
+                    - "100"
+                    - --lambdas
+                    - "0.1"
+                    - "0.5"
+                    - "1.0"
+                    - --wandb-key
+                    - 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
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 2
+                cpu_count_logical: 4
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "8656922775552"
+                        used: "7346432159744"
+                email: karthikeyanr103@gmail.com
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-a2adf148-e391-be45-486e-294e00ca86ad
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-d12cb470-560b-2b3b-3163-4b3edd19cb09
+                host: d1e50cba171c
+                memory:
+                    total: "33662472192"
+                os: Linux-6.6.113+-x86_64-with-glibc2.35
+                program: /kaggle/working/train.py
+                python: CPython 3.12.12
+                root: /kaggle/working
+                startedAt: "2026-04-24T08:13:59.283945Z"
+                writerId: 03jt2sdzp86xrkr3q7aaudeodrpajgah
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.25.0
+            "8":
+                - 2
+            "10":
+                - 20
+            "12": 0.25.0
+            "13": linux-x86_64
+architecture:
+    value: 3072-1024-512-256-10
+epochs:
+    value: 100
+gate_lr:
+    value: 0.01
+lambda_sparse:
+    value: 0.1
+lr:
+    value: 0.001
+optimizer:
+    value: Adam
+scheduler:
+    value: CosineAnnealingLR
+sparsity_loss:
+    value: mean(sigmoid(gate_scores))

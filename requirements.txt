@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchvision>=0.15.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+Pillow>=9.5.0
+PyYAML>=6.0
+wandb>=0.15.0          # optional – only needed for W&B logging
+pytest>=7.4.0          # only needed for running tests
