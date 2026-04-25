@@ -88,8 +88,8 @@ self-pruning-nn/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/self-pruning-nn.git
-cd self-pruning-nn
+git clone https://github.com/karthikeyanr103/Tredence-Analytics-AI-Intern.git
+cd Tredence-Analytics-AI-Intern
 pip install -r requirements.txt
 ```
 
